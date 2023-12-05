@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainWraper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .logoDiv {
+  width: 28%;
+}
+.header .searchDiv {
+  width: 35%;
+  position: relative;
+}
+.header .contactDiv {
+  width: 37%;
+}
+.header .logoDiv a img {
+  display: block;
+  margin: auto;
+}
+.header .logoDiv p {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.377);
+  font-weight: 600;
+}
+
+.searchDiv input {
+  padding: 17px 100px 17px 30px;
+  width: 100%;
+  font-size: 15px;
+  color: rgba(75, 74, 74, 0.63);
+
+  border: 2px solid #f17236;
+  outline: none;
+  border-radius: 5px;
+}
+.searchDiv i {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  font-size: 17px;
+}
+.searchDiv input::placeholder {
+  color: rgba(75, 74, 74, 0.397);
+  font-size: 15px;
+}
+
+/* contactDiv  */
+.contactDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.contactDiv div {
+  text-align: center;
+  /* width: 33%; */
+}
+.contactDiv div i {
+  font-size: 25px;
+  color: #73b43e;
+  margin-bottom: 14px;
+}
+.contactDiv div p {
+  color: #232323bd;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+.contactDiv div .number {
+  /* letter-spacing: 5px; */
+}
+
+/* navbar  */
+.mainWraper .navbar {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+
+  background-color: rgba(99, 99, 102, 0.616);
+}
